@@ -10,13 +10,13 @@ Extend LitElement to fit our needs. I like doing this so that we dont have to cr
 
 ```js
 // include all lit-element helpers
-import 'bui/helpers/lit-element'
+import 'bui/helpers/lit-element.js'
 ```
 
 ### Listeners
 
 ```js
-import 'bui/helpers/lit-element/listeners'
+import 'bui/helpers/lit-element/listeners.js'
 ```
 
 Adds support for listening to Backbone Model/Collection/ChildCollection
@@ -41,7 +41,7 @@ this.model.get('child-collection').on('reset', this.update.bind(this))
 ### Events
 
 ```js
-import 'bui/helpers/lit-element/events'
+import 'bui/helpers/lit-element/events.js'
 ```
 
 To simplify event dispatching from inside the shadow dom, an `emitEvent`
@@ -58,7 +58,7 @@ will bubble up and out of the shadow dom
 ### Get
 
 ```js
-import 'bui/helpers/lit-element/get'
+import 'bui/helpers/lit-element/get.js'
 ```
 Shortcut to `this.model.get()` that also supports `defaultValue`
 ```js
@@ -68,8 +68,8 @@ this.get('some_key', 'default Value')
 ### Model / Coll
 
 ```js
-import 'bui/helpers/lit-element/model'
-import 'bui/helpers/lit-element/coll'
+import 'bui/helpers/lit-element/model.js'
+import 'bui/helpers/lit-element/coll.js'
 ```
 
 A common pattern is to pass a model object to the custom element. This extension
@@ -88,7 +88,7 @@ onModelChange(model){
 > Considering DEPRECATION
 
 ```js
-import 'bui/helpers/lit-element/sv'
+import 'bui/helpers/lit-element/sv.js'
 ```
 
 Sometimes a linked subview needs to be created and we'd like to keep
@@ -113,7 +113,7 @@ to improve the workflow.
 ### Promises
 Crud methods in promise form
 ```js
-import 'helpers/backbone/promises'
+import 'helpers/backbone/promises.js'
 
 await model.fetchSync()
 await model.saveSync()
@@ -142,7 +142,7 @@ const ModelAttrTypes = {
 
 ```js
 // How to use
-import 'helpers/backbone/attr-types'
+import 'helpers/backbone/attr-types.js'
 
 class MyModel extends Backbone.Model {
 

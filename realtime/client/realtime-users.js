@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element'
-import '../../elements/avatar'
+import '../../elements/avatar.js'
 
 let realtime = null
 

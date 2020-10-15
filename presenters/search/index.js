@@ -1,9 +1,9 @@
 import { LitElement, html, css } from 'lit-element'
 import Menu from '../menu'
-import '../form-control/form-control'
-import '../form-control/controls/text-field'
-import '../../elements/btn'
-import '../../elements/spinner'
+import '../form-control/form-control.js'
+import '../form-control/controls/text-field.js'
+import '../../elements/btn.js'
+import '../../elements/spinner.js'
 import ResultView from './result'
 import device from '../../util/device'
 

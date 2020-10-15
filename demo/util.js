@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element'
-import './markdown-docs'
+import './markdown-docs.js'
 import docs from 'bui/util/README.md'
 
 customElements.define('demo-util', class extends LitElement{

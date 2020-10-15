@@ -7,8 +7,8 @@ import Italic from 'quill/formats/italic';
 import List, { ListItem } from 'quill/formats/list';
 
 // custom modules
-import './clipboard'
-import './divider'
+import './clipboard.js'
+import './divider.js'
 import {lineBreakMatcher, keyboardLinebreak} from './break'
 
 Quill.register({

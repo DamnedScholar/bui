@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element'
-import './filter-btn'
+import './filter-btn.js'
 
 customElements.define('b-list-filters', class extends LitElement{
 

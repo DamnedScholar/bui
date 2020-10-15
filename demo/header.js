@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit-element'
-import 'bui/elements/text'
+import 'bui/elements/text.js'
 import Menu from 'bui/presenters/menu'
 import {colorScheme} from 'bui/util/device'
-import 'bui/elements/logo'
+import 'bui/elements/logo.js'
 
 window.colorScheme = colorScheme
 

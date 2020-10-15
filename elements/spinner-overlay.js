@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
-import './spinner'
+import './spinner.js'
 
 export class SpinnerOverlayElement extends LitElement {
 

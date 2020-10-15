@@ -1,10 +1,10 @@
 import { LitElement, html, css } from 'lit-element'
 import Popover from '../../popover'
-import './sort-btn'
-import './sort-dir-btn'
-import './filters-view'
-import './layout-btn'
-import './search'
+import './sort-btn.js'
+import './sort-dir-btn.js'
+import './filters-view.js'
+import './layout-btn.js'
+import './search.js'
 
 customElements.define('b-list-toolbar', class extends LitElement{
 

@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit-element'
-import 'bui/elements/headers'
-import 'bui/elements/hr'
+import 'bui/elements/headers.js'
+import 'bui/elements/hr.js'
 
 customElements.define('demo-overview', class extends LitElement{
 

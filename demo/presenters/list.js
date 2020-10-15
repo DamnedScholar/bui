@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit-element'
 import View from './view'
 import docs from 'bui/presenters/list/README.md'
-import 'bui/presenters/list'
-import 'bui/presenters/list/export-btn'
+import 'bui/presenters/list.js'
+import 'bui/presenters/list/export-btn.js'
 
 customElements.define('demo-presenter-list', class extends View{
 

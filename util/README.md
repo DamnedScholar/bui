@@ -34,7 +34,7 @@ new AJAX(method, url)
 ## Background Resume
 
 ```js
-import 'bui/util/background-resume'
+import 'bui/util/background-resume.js'
 
 window.addEventListener('background-resume', e=>{ /*do something*/ })
 ```
@@ -87,7 +87,7 @@ let newObj = pick({first:'name', last:'name}, ['first'])
 ## `Promise.series`
 Perform a set of promise tasks in series (waiting to complete until moving on to the next)
 ```js
-import 'util/promise.series' // import once
+import 'util/promise.series.js' // import once
 
 Promise.series([task1, task2, task3], (task, i, prevResult)=>{
     await task()
@@ -135,7 +135,7 @@ store('my-setting', null)
 Wrapper around `Array.reduce` for summing the values in an array.
 Will automatically be added to the prototype of Array
 ```js
-import 'util/sum' // only needs to be done once
+import 'util/sum.js' // only needs to be done once
 
 [1,2].sum() // = 3
 [{val:1}, {val: 2}].sum(o=>o.val) // = 3

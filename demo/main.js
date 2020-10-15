@@ -1,9 +1,9 @@
 import App from 'bui/presenters/tabs/app'
-import './overview'
-import './elements'
-import './presenters'
-import './util'
-import './server'
+import './overview.js'
+import './elements.js'
+import './presenters.js'
+import './util.js'
+import './server.js'
 
 customElements.define('demo-main', class extends App{
 

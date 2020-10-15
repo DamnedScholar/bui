@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element'
 import router from 'bui/router'
-import 'bui/presenters/tabs/tabs-router'
-import './app-tab-bar'
+import 'bui/presenters/tabs/tabs-router.js'
+import './app-tab-bar.js'
 
 customElements.define('b-app', class extends LitElement {
 

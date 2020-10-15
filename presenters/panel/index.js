@@ -3,9 +3,9 @@ import Controller from './controller'
 import router from '../../router'
 import Route from '../../router/route'
 import device from '../../util/device'
-import './controller'
-import './toolbar'
-import '../../elements/btn'
+import './controller.js'
+import './toolbar.js'
+import '../../elements/btn.js'
 
 export const PanelDefaults = {
     type: '',

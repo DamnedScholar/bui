@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element'
 // import Menu from '../presenters/menu'
-import './icon'
-import '../presenters/form-control/controls/range-slider'
+import './icon.js'
+import '../presenters/form-control/controls/range-slider.js'
 import moment from 'moment'
 import store from '../util/store'
 

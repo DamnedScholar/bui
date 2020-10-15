@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
-import './spinner'
-import './icon'
+import './spinner.js'
+import './icon.js'
 
 export default class BtnElement extends LitElement {
 

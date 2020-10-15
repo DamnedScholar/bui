@@ -1,7 +1,7 @@
 import {css} from 'lit-element'
 import moment from 'moment'
 import Dialog from '../../dialog'
-import './date-picker'
+import './date-picker.js'
 import setValueAttrs from '../util/setValueAttrs'
 import validatePattern from '../util/validatePattern'
 import stopMaxLength from '../util/stopMaxLength'

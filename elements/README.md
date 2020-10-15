@@ -4,7 +4,7 @@ Although custom elements are globally accessible after initially imported,
 it is best practice to import elements when you need them.
 
 ```js
-import 'blackstone-ui/elements/btn'
+import 'blackstone-ui/elements/btn.js'
 let btn = document.createElement('b-btn')
 
 // or

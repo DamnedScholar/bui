@@ -5,7 +5,7 @@ router.config({
     prefix: '#/'
 })
 
-import './markdown-docs'
+import './markdown-docs.js'
 
-import './header'
-import './main'
+import './header.js'
+import './main.js'

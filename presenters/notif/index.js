@@ -3,7 +3,7 @@ import Controller from './controller'
 import device from '../../util/device'
 import style from './style'
 import TYPES from './types'
-import './snackbar'
+import './snackbar.js'
 
 // list of open notifs
 const NOTIFS = new Map()

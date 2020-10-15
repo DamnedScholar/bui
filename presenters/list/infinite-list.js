@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element'
-import '../../elements/empty-state'
+import '../../elements/empty-state.js'
 
 customElements.define('b-infinite-list', class extends LitElement {
 

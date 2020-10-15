@@ -4,8 +4,8 @@ import Popover from '../popover'
 import Dialog from '../dialog'
 import Panel from '../panel'
 import Fuse from 'fuse.js'
-import '../form-control/controls/check-box'
-import '../form-control/controls/select-field'
+import '../form-control/controls/check-box.js'
+import '../form-control/controls/select-field.js'
 import device from '../../util/device';
 
 export const DefaultOpts = {

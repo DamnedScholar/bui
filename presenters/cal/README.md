@@ -2,7 +2,7 @@ Calendar
 ==========
 
 ```js
-import 'bui/presenters/cal'
+import 'bui/presenters/cal.js'
 ```
 
 ```html
