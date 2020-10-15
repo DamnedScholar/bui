@@ -1,6 +1,6 @@
-import { LitElement, html, css } from 'lit-element'
-import {unsafeHTML} from 'lit-html/directives/unsafe-html'
-import makeBtn, {cancelBtns} from '../dialog/make-btn'
+import { LitElement, html, css } from 'lit-element.js'
+import {unsafeHTML} from 'lit-html/directives/unsafe-html.js'
+import makeBtn, {cancelBtns} from '../dialog/make-btn.js'
 import '../../helpers/lit-element/events.js'
 
 customElements.define('b-snackbar', class extends LitElement{

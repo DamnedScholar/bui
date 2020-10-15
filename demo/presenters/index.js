@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from 'lit-element.js'
 import 'bui/helpers/colors-list.js'
 import 'bui/presenters/form-control.js'
 import 'bui/presenters/list.js'

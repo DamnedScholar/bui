@@ -15,7 +15,7 @@
     ```
 */
 import { LitElement } from "lit-element";
-import {Model, Collection} from 'backbone'
+import {Model, Collection} from 'backbone.js'
 
 const LitElement_connectedCallback = LitElement.prototype.connectedCallback
 const LitElement_disconnectedCallback = LitElement.prototype.disconnectedCallback

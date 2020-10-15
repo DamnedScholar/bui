@@ -1,6 +1,6 @@
-import { LitElement, html, css } from 'lit-element'
-import moment from 'moment'
-import Dialog from 'bui/presenters/dialog'
+import { LitElement, html, css } from 'lit-element.js'
+import moment from 'moment.js'
+import Dialog from 'bui/presenters/dialog.js'
 import 'bui/presenters/tabs.js'
 import 'bui/elements/icon.js'
 import 'bui/elements/text.js'
@@ -24,10 +24,10 @@ import 'bui/elements/embed.js'
 import 'bui/elements/audio.js'
 import 'bui/elements/carousel.js'
 import 'bui/elements/timeline-horz.js'
-import defineFileIcon from 'bui/elements/file-icon'
+import defineFileIcon from 'bui/elements/file-icon.js'
 
-import buttons from './elements/buttons'
-import text from './elements/text'
+import buttons from './elements/buttons.js'
+import text from './elements/text.js'
 
 defineFileIcon()
 

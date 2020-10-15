@@ -1,4 +1,4 @@
-import Emitter from 'component-emitter'
+import Emitter from 'component-emitter.js'
 
 const isTouch = 'ontouchstart' in window
 

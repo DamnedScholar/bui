@@ -1,5 +1,5 @@
-import {css} from 'lit-element'
-import device from '../util/device'
+import {css} from 'lit-element.js'
+import device from '../util/device.js'
 
 const styles = css`
     ::-webkit-scrollbar {

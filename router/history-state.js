@@ -1,4 +1,4 @@
-import config, {normalizePath, cleansePath} from './config'
+import config, {normalizePath, cleansePath} from './config.js'
 
 export default class HistoryState {
 

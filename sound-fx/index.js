@@ -1,7 +1,7 @@
 // https://gist.github.com/beefchimi/a1cc7fdfa722ae1366ca8d982f20ed8d#file-single-js
-import fetchAudioBuffer from './fetch-audio-buffer';
-import methodPatch from './method-patch';
-import MobileAudioFix from './mobile-audio-fix';
+import fetchAudioBuffer from './fetch-audio-buffer.js';
+import methodPatch from './method-patch.js';
+import MobileAudioFix from './mobile-audio-fix.js';
 
 // All of my MP3s were built to be a consistent volume on export,
 // so I can safely set the same gain on all of them.

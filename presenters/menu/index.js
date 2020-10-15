@@ -1,12 +1,12 @@
-import {html, render} from 'lit-html'
-import {unsafeHTML} from 'lit-html/directives/unsafe-html'
-import Popover from '../popover'
-import Dialog from '../dialog'
-import Panel from '../panel'
-import Fuse from 'fuse.js'
+import {html, render} from 'lit-html.js'
+import {unsafeHTML} from 'lit-html/directives/unsafe-html.js'
+import Popover from '../popover.js'
+import Dialog from '../dialog.js'
+import Panel from '../panel.js'
+import Fuse from 'fuse.js.js'
 import '../form-control/controls/check-box.js'
 import '../form-control/controls/select-field.js'
-import device from '../../util/device';
+import device from '../../util/device.js';
 
 export const DefaultOpts = {
 	selected: false,

@@ -22,8 +22,8 @@ io.on('connection', socket=>{
 
 ```js
 // client
-import io from 'socket.io-client'
-import Views from 'client/views'
+import io from 'socket.io-client.js'
+import Views from 'client/views.js'
 
 const socket = io('/', {
     transports: ['websocket'], // https://caniuse.com/#feat=websockets

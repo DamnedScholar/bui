@@ -1,7 +1,7 @@
 /*
     Creates shortcuts for selector querying
 */
-import {LitElement} from 'lit-element'
+import {LitElement} from 'lit-element.js'
 
 LitElement.prototype.$ = function(query){
     return this.querySelector(query)

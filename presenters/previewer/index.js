@@ -1,6 +1,6 @@
-import { LitElement, html, css } from 'lit-element'
-import Panel from 'panel'
-import device from 'bui/util/device'
+import { LitElement, html, css } from 'lit-element.js'
+import Panel from 'panel.js'
+import device from 'bui/util/device.js'
 
 let Presenters = [
     require('./presenters/image').default,

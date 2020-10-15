@@ -1,9 +1,9 @@
 import { render, html } from "lit-html";
-import {unsafeHTML} from 'lit-html/directives/unsafe-html.js';
-import {normalizeText, htmlCleaner} from '../../../../util'
-import Menu from '../../../menu'
-import styles from './style'
-import {Quill, lineBreakMatcher, keyboardLinebreak} from './quill'
+import {unsafeHTML} from 'lit-html/directives/unsafe-html.js.js';
+import {normalizeText, htmlCleaner} from '../../../../util.js'
+import Menu from '../../../menu.js'
+import styles from './style.js'
+import {Quill, lineBreakMatcher, keyboardLinebreak} from './quill.js'
 
 class RichTextField extends HTMLElement {
 

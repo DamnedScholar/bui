@@ -1,6 +1,6 @@
-import Route from './route'
-import HistoryStates from './history-states'
-import config, {normalizePath} from './config'
+import Route from './route.js'
+import HistoryStates from './history-states.js'
+import config, {normalizePath} from './config.js'
 
 const ROUTES = []
 

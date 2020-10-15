@@ -1,9 +1,9 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/panel/README.md'
-import Panel, {Modal} from 'bui/presenters/panel'
-import Menu from 'bui/presenters/menu'
-import router from 'bui/router'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/panel/README.md.js'
+import Panel, {Modal} from 'bui/presenters/panel.js'
+import Menu from 'bui/presenters/menu.js'
+import router from 'bui/router.js'
 
 customElements.define('demo-presenter-panel', class extends View{
 

@@ -5,7 +5,7 @@ A notification presenter inspired by [material snackbars](https://material-ui.co
 and [notistack](https://iamhosseindhv.com/notistack/demos#custom-snackbar)
 
 ```js
-import Notif from 'bui/presenters/nofif'
+import Notif from 'bui/presenters/nofif.js'
 
 new Notif({
     msg: 'A simple notifcation'

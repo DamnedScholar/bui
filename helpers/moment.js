@@ -1,4 +1,4 @@
-import moment from 'moment'
+import moment from 'moment.js'
 
 // .calendar includes time, this will only show dates/days
 moment.fn.calendarDate = function(referenceTime, formats={}){

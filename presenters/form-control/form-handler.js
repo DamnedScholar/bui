@@ -1,4 +1,4 @@
-import store from '../../util/store'
+import store from '../../util/store.js'
 
 class FormHandler extends HTMLElement {
 	

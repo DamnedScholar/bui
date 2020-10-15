@@ -1,4 +1,4 @@
-import App from 'bui/presenters/tabs/app'
+import App from 'bui/presenters/tabs/app.js'
 import './overview.js'
 import './elements.js'
 import './presenters.js'

@@ -1,12 +1,12 @@
-import Menu from '../../menu'
-import Dialog from '../../dialog'
-import Popover from '../../popover'
-import titleize from '../../../util/titleize'
-import Fuse from 'fuse.js'
-import Emitter from 'component-emitter'
-import FilterViewDate from '../toolbar/filter-view-date'
-import FilterViewInput from '../toolbar/filter-view-input'
-import FilterViewSlider from '../toolbar/filter-view-slider'
+import Menu from '../../menu.js'
+import Dialog from '../../dialog.js'
+import Popover from '../../popover.js'
+import titleize from '../../../util/titleize.js'
+import Fuse from 'fuse.js.js'
+import Emitter from 'component-emitter.js'
+import FilterViewDate from '../toolbar/filter-view-date.js'
+import FilterViewInput from '../toolbar/filter-view-input.js'
+import FilterViewSlider from '../toolbar/filter-view-slider.js'
 
 const CustomViews = {
     'date': FilterViewDate,

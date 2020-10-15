@@ -1,14 +1,14 @@
-import { LitElement, html, css } from 'lit-element'
-import DataSource from './data/source'
-import Filters from './data/filters'
-import Sorts from './data/sorts'
-import Layouts from './data/layouts'
+import { LitElement, html, css } from 'lit-element.js'
+import DataSource from './data/source.js'
+import Filters from './data/filters.js'
+import Sorts from './data/sorts.js'
+import Layouts from './data/layouts.js'
 import './toolbar.js'
 import './toolbar/selection-bar.js'
 import './infinite-list.js'
 import '../../elements/spinner-overlay.js'
 import '../../helpers/lit-element/selectors.js'
-import Selection from '../selection'
+import Selection from '../selection.js'
 
 customElements.define('b-list', class extends LitElement {
 

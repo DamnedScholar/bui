@@ -1,5 +1,5 @@
-import SocketView from './view-socket' 
-import Emitter from 'component-emitter'
+import SocketView from './view-socket.js' 
+import Emitter from 'component-emitter.js'
 
 export default class View {
 

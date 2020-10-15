@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import sparkline from '@fnando/sparkline'
+import { LitElement, html, css } from 'lit-element.js'
+import sparkline from '@fnando/sparkline.js'
 
 customElements.define('b-sparkline', class extends LitElement{
 

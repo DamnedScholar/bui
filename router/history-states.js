@@ -1,5 +1,5 @@
 
-import HistoryState from './history-state'
+import HistoryState from './history-state.js'
 
 export default class HistoryStates {
     constructor(){

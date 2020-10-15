@@ -1,4 +1,4 @@
-import capitalize from 'lodash/capitalize'
+import capitalize from 'lodash/capitalize.js'
 
 export default str => {
     return str.replace(/[\-_]/g, ' ')

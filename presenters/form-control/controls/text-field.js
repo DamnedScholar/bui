@@ -1,11 +1,11 @@
-import {css} from 'lit-element'
-import moment from 'moment'
-import Dialog from '../../dialog'
+import {css} from 'lit-element.js'
+import moment from 'moment.js'
+import Dialog from '../../dialog.js'
 import './date-picker.js'
-import setValueAttrs from '../util/setValueAttrs'
-import validatePattern from '../util/validatePattern'
-import stopMaxLength from '../util/stopMaxLength'
-import {normalizeText, htmlCleaner} from '../../../util'
+import setValueAttrs from '../util/setValueAttrs.js'
+import validatePattern from '../util/validatePattern.js'
+import stopMaxLength from '../util/stopMaxLength.js'
+import {normalizeText, htmlCleaner} from '../../../util.js'
 
 const styles = css`
 :host {

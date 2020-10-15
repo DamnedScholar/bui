@@ -1,4 +1,4 @@
-import {css} from 'lit-element'
+import {css} from 'lit-element.js'
 import './touch-ripple.js'
 
 const styles = css`

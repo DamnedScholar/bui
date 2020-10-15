@@ -1,4 +1,4 @@
-import device from './device'
+import device from './device.js'
 
 const windowOpen = window.open
 

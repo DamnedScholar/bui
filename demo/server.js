@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import docs from 'bui/server/README.md'
+import { LitElement, html, css } from 'lit-element.js'
+import docs from 'bui/server/README.md.js'
 
 customElements.define('demo-server', class extends LitElement{
 

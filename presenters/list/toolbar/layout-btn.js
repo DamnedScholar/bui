@@ -1,4 +1,4 @@
-import Btn from '../../../elements/btn'
+import Btn from '../../../elements/btn.js'
 
 customElements.define('b-list-layout-btn', class extends Btn{
 

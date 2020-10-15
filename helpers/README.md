@@ -165,7 +165,7 @@ myModel.get('ts_created') // Date()
 
 #### Registering your own attribute type
 ```js
-import moment from 'moment'
+import moment from 'moment.js'
 
 Backbone.registerModelAttrType('date', val=>{
     return moment(val)

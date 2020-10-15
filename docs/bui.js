@@ -679,7 +679,7 @@ const directives = new WeakMap();
  *
  * @example
  *
- * import {directive, html} from 'lit-html';
+ * import {directive, html} from 'lit-html.js';
  *
  * const immutable = directive((v) => (part) => {
  *   if (part.value !== v) {
@@ -3861,7 +3861,7 @@ Object.keys(_cssTag).forEach(function (key) {
  * component:
  *
  *  ```js
- * import {LitElement, html} from 'lit-element';
+ * import {LitElement, html} from 'lit-element.js';
  *
  * class MyElement extends LitElement {
  *
@@ -13070,7 +13070,7 @@ var _store = _interopRequireDefault(require("../util/store"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Menu from '../presenters/menu'
+// import Menu from '../presenters/menu.js'
 // TODO: hook up settings menu
 const formatTime = sec => {
   var dur = _moment.default.duration(sec * 1000);
@@ -24514,7 +24514,7 @@ exports.default = _default;
     underlying html structure.
 
     ```
-    import {htmlCleaner} from 'util/html-cleander'
+    import {htmlCleaner} from 'util/html-cleander.js'
     let html = htmlCleaner.clean(strOfHtml)
     ```
 
@@ -38309,8 +38309,8 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Header from 'quill/formats/header';
-// import Blockquote from 'quill/formats/blockquote';
+// import Header from 'quill/formats/header.js';
+// import Blockquote from 'quill/formats/blockquote.js';
 // custom modules
 _core.default.register({
   'modules/toolbar': _toolbar.default,

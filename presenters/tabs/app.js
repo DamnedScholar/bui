@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import router from 'bui/router'
+import { LitElement, html, css } from 'lit-element.js'
+import router from 'bui/router.js'
 import 'bui/presenters/tabs/tabs-router.js'
 import './app-tab-bar.js'
 

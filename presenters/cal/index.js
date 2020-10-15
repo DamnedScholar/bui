@@ -1,7 +1,7 @@
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from 'lit-element.js'
 import '../../elements/btn-group.js'
 import '../../helpers/lit-element/events.js'
-import moment from 'moment'
+import moment from 'moment.js'
 import './day.js'
 
 customElements.define('b-cal', class extends LitElement{

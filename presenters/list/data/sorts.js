@@ -1,8 +1,8 @@
-import {html} from 'lit-element'
-import Menu from '../../menu'
-import titleize from '../../../util/titleize'
-import device from '../../../util/device'
-import Emitter from 'component-emitter'
+import {html} from 'lit-element.js'
+import Menu from '../../menu.js'
+import titleize from '../../../util/titleize.js'
+import device from '../../../util/device.js'
+import Emitter from 'component-emitter.js'
 
 export default class Sorts extends Map {
 

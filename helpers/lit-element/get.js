@@ -1,4 +1,4 @@
-import {LitElement} from 'lit-element'
+import {LitElement} from 'lit-element.js'
 
 LitElement.prototype.get = function(key, defaultVal=''){
     let val = defaultVal

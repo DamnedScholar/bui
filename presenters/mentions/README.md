@@ -4,7 +4,7 @@ Mentions
 Make any `contenteditable` detect and insert mentions.
 
 ```js
-import Mentions from 'bui/presenters/mentions'
+import Mentions from 'bui/presenters/mentions.js'
 
 new Mentions(editableElement, {
     values: [{
@@ -54,7 +54,7 @@ The array of values should conform to the [menu presenter](../menu/README.md)
 Although each instance of `mention` can have different values set, you can choose to set the default values which will be used if no `values` specified.
 
 ```js
-import Mentions from 'bui/presenters/mentions'
+import Mentions from 'bui/presenters/mentions.js'
 
 Mentions.defaultValues = function(){ return [/*...values here */]}
 ```
@@ -65,8 +65,8 @@ A default `<b-mention>` element will be registered and used upon the first intia
 If you wish to extend the default mention, you can import, extend, and register it yourself.
 
 ```js
-import {html} from 'lit-element'
-import Mentions, {MentionElement} from 'bui/presenters/mentions'
+import {html} from 'lit-element.js'
+import Mentions, {MentionElement} from 'bui/presenters/mentions.js'
 
 class CustomMentionElement extends MentionElement {
 

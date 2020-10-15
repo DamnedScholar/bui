@@ -1,6 +1,6 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/mentions/README.md'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/mentions/README.md.js'
 
 customElements.define('demo-presenter-mentions', class extends View{
 

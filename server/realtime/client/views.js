@@ -1,5 +1,5 @@
-import View from './view'
-import Emitter from 'component-emitter'
+import View from './view.js'
+import Emitter from 'component-emitter.js'
 
 export default class Views extends Map {
 

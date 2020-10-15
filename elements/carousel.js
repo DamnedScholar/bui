@@ -2,7 +2,7 @@
     TODO:
     - add sliding animation?
 */
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from 'lit-element.js'
 
 customElements.define('b-carousel', class extends LitElement{
 

@@ -1,4 +1,4 @@
-import methodPatch from './method-patch';
+import methodPatch from './method-patch.js';
 
 export default class MobileAudioFix {
   constructor(context) {

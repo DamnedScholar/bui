@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import docs from 'bui/presenters/form-control/README.md'
+import { LitElement, html, css } from 'lit-element.js'
+import docs from 'bui/presenters/form-control/README.md.js'
 
 customElements.define('demo-presenter-form-control', class extends LitElement{
 

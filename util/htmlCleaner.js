@@ -7,7 +7,7 @@
     underlying html structure.
 
     ```
-    import {htmlCleaner} from 'util/html-cleander'
+    import {htmlCleaner} from 'util/html-cleander.js'
     let html = htmlCleaner.clean(strOfHtml)
     ```
 

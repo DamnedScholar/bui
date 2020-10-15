@@ -1,7 +1,7 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/notif/README.md'
-import Notif from 'bui/presenters/notif'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/notif/README.md.js'
+import Notif from 'bui/presenters/notif.js'
 
 customElements.define('demo-presenter-notif', class extends View{
 

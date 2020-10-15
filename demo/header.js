@@ -1,7 +1,7 @@
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from 'lit-element.js'
 import 'bui/elements/text.js'
-import Menu from 'bui/presenters/menu'
-import {colorScheme} from 'bui/util/device'
+import Menu from 'bui/presenters/menu.js'
+import {colorScheme} from 'bui/util/device.js'
 import 'bui/elements/logo.js'
 
 window.colorScheme = colorScheme

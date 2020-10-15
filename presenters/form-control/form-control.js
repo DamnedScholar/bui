@@ -2,8 +2,8 @@
 	Form Control
 */
 
-import styles from './form-control.css.js'
-import nativeInputHelper from './util/nativeInputHelper'
+import styles from './form-control.css.js.js'
+import nativeInputHelper from './util/nativeInputHelper.js'
 
 class FormControlElement extends HTMLElement {
 	

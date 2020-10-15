@@ -1,8 +1,8 @@
 /*
 	Popover
 */
-import Popper from 'popper.js'
-import device from '../../util/device'
+import Popper from 'popper.js.js'
+import device from '../../util/device.js'
 
 const styles = require('./style.less')
 

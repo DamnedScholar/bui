@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from 'lit-element.js'
 import 'bui/elements/headers.js'
 import 'bui/elements/hr.js'
 

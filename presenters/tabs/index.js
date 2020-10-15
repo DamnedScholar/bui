@@ -1,8 +1,8 @@
-import { LitElement, html, css } from 'lit-element'
-import Menu from '../menu'
-import TabViews from './views'
-import TabView from './view'
-import debounce from 'lodash/debounce'
+import { LitElement, html, css } from 'lit-element.js'
+import Menu from '../menu.js'
+import TabViews from './views.js'
+import TabView from './view.js'
+import debounce from 'lodash/debounce.js'
 
 customElements.define('b-tabs', class extends LitElement {
 

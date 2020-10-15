@@ -1,9 +1,9 @@
 /*
 	Select Field
 */
-import {css} from 'lit-element'
-import Menu from '../../menu'
-import device from '../../../util/device';
+import {css} from 'lit-element.js'
+import Menu from '../../menu.js'
+import device from '../../../util/device.js';
 
 const styles = css`
 

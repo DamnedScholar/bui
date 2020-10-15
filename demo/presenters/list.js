@@ -1,6 +1,6 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/list/README.md'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/list/README.md.js'
 import 'bui/presenters/list.js'
 import 'bui/presenters/list/export-btn.js'
 

@@ -1,5 +1,5 @@
-import moment from 'moment';
-import {css} from 'lit-element'
+import moment from 'moment.js';
+import {css} from 'lit-element.js'
 
 const styles = css`
 

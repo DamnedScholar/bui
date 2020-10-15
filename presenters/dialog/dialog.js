@@ -1,9 +1,9 @@
-import {render, TemplateResult} from 'lit-html';
-import device from '../../util/device';
-import Panel from '../panel'
-import Notif from '../notif'
-import Popover from '../popover'
-import makeBtn, {cancelBtns} from './make-btn'
+import {render, TemplateResult} from 'lit-html.js';
+import device from '../../util/device.js';
+import Panel from '../panel.js'
+import Notif from '../notif.js'
+import Popover from '../popover.js'
+import makeBtn, {cancelBtns} from './make-btn.js'
 
 // FIXME: this module needs to be refactored using lit-element to better apply styles
 const styles = require('./style.less')

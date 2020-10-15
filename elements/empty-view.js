@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import EmptyState from 'bui/elements/empty-state'
+import { LitElement, html, css } from 'lit-element.js'
+import EmptyState from 'bui/elements/empty-state.js'
 
 customElements.define('b-empty-view', class extends EmptyState {
 

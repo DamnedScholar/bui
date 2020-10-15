@@ -1,8 +1,8 @@
-import { LitElement, html, css } from 'lit-element'
-import Controller from './controller'
-import device from '../../util/device'
-import style from './style'
-import TYPES from './types'
+import { LitElement, html, css } from 'lit-element.js'
+import Controller from './controller.js'
+import device from '../../util/device.js'
+import style from './style.js'
+import TYPES from './types.js'
 import './snackbar.js'
 
 // list of open notifs

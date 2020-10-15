@@ -1,7 +1,7 @@
 /*
 	https://icomoon.io/app
 */
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from 'lit-element.js';
 
 const svgDef = require('./icons.svg.html');
 

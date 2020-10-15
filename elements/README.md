@@ -8,7 +8,7 @@ import 'blackstone-ui/elements/btn.js'
 let btn = document.createElement('b-btn')
 
 // or
-import Btn from 'blackstone-ui/elements/btn'
+import Btn from 'blackstone-ui/elements/btn.js'
 let btn = new Btn()
 ```
 ***
@@ -136,8 +136,8 @@ File icon has some default file formats defined, but you will inevitably want to
 To support this, you must deliberately call the "define" function before using the custom element.
 
 ```js
-import { css } from 'lit-element'
-import defineFileIcon, {fileIconColors} from 'bui/elements/file-icon'
+import { css } from 'lit-element.js'
+import defineFileIcon, {fileIconColors} from 'bui/elements/file-icon.js'
 
 // list of predefined colors
 // override them in this object or in the define method
@@ -299,7 +299,7 @@ Create scalable avatars with initials or image with from a url or gravatar GUID
 
 #### Changing default colors
 ```js
-import {BgdColors} from 'avatar'
+import {BgdColors} from 'avatar.js'
 BgdColors = [/*...array of colors...*/]
 ```
 
@@ -462,7 +462,7 @@ shortcuts when hovered over the element
 
 ```js
 // or via JS
-import AudioPlayer from 'elements/audio'
+import AudioPlayer from 'elements/audio.js'
 let player = new AudioPlayer('http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.mp4', {autoplay: true})
 ```
 

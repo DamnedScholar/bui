@@ -1,8 +1,8 @@
-import { LitElement, html, css } from 'lit-element'
-import {unsafeHTML} from 'lit-html/directives/unsafe-html'
-import marked from 'marked'
-import hljs from 'highlight.js'
-import {codeHightlighStyle} from './code-hightlight-style'
+import { LitElement, html, css } from 'lit-element.js'
+import {unsafeHTML} from 'lit-html/directives/unsafe-html.js'
+import marked from 'marked.js'
+import hljs from 'highlight.js.js'
+import {codeHightlighStyle} from './code-hightlight-style.js'
 
 marked.setOptions({
     highlight: function(code, language) {

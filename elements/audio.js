@@ -1,9 +1,9 @@
-import { LitElement, html, css } from 'lit-element'
-// import Menu from '../presenters/menu'
+import { LitElement, html, css } from 'lit-element.js'
+// import Menu from '../presenters/menu.js'
 import './icon.js'
 import '../presenters/form-control/controls/range-slider.js'
-import moment from 'moment'
-import store from '../util/store'
+import moment from 'moment.js'
+import store from '../util/store.js'
 
 // TODO: hook up settings menu
 

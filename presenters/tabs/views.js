@@ -1,4 +1,4 @@
-import TabView from './view'
+import TabView from './view.js'
 
 export default class TabViews extends Map {
 

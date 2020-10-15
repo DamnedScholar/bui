@@ -26,16 +26,16 @@ import '../presenters/cal.js'
 import '../helpers/colors-list.js'
 import '../styles/colors.less';
 
-import defineFileIcon from '../elements/file-icon'
+import defineFileIcon from '../elements/file-icon.js'
 defineFileIcon()
 
-import Dialog from '../presenters/dialog'
+import Dialog from '../presenters/dialog.js'
 window.Dialog = Dialog
 
-import Menu from '../presenters/menu'
+import Menu from '../presenters/menu.js'
 window.Menu = Menu
 
-import Notif from '../presenters/notif'
+import Notif from '../presenters/notif.js'
 window.Notif = Notif
 
 

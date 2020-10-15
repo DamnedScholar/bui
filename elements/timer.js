@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import moment from 'moment'
+import { LitElement, html, css } from 'lit-element.js'
+import moment from 'moment.js'
 
 export class TimerElement extends LitElement {
 

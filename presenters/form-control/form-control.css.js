@@ -1,4 +1,4 @@
-import {css} from 'lit-element'
+import {css} from 'lit-element.js'
 
 export default css`
 slot#value {

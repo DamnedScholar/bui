@@ -53,7 +53,7 @@ from the background; this script enables such a function.
 Detect OS level [color schemes](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) and react to changes. You can do this with CSS, this utilty is for use in JS if needed
 
 ```js
-import { colorScheme } from 'util/device'
+import { colorScheme } from 'util/device.js'
 
 colorScheme.isDarkMode
 colorScheme.isLightMode
@@ -65,7 +65,7 @@ colorScheme.onChange(mode=>console.log(mode))
 ## `device`
 Some simple device detection
 ```js
-import device from 'util/device'
+import device from 'util/device.js'
 
 device.is_ios
 device.is_android
@@ -168,7 +168,7 @@ let csvData = toCSV(data, {title: 'My Data'})
 You can use `util/download` to download your csv data to a file
 
 ```js
-import {downloadCSV} from 'bui/util/download'
+import {downloadCSV} from 'bui/util/download.js'
 downloadCSV(csvData)
 downloadCSV(csvData, 'custom-file-name.csv')
 ```
@@ -196,7 +196,7 @@ be good alternative. By default, `bindLongPress` will trigger a `contextmenu` ev
 after the user has touched down for `500ms` without dragging.
 
 ```js
-import {bindLongpress} from 'bui/util/touch-events'
+import {bindLongpress} from 'bui/util/touch-events.js'
 
 bindLongpress(el) // use defaults
 bindLongress(el, {

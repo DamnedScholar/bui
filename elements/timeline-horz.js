@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element'
+import { LitElement, html, css } from 'lit-element.js'
 
 customElements.define('b-timeline-horz', class extends LitElement{
 

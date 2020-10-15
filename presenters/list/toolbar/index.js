@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import Popover from '../../popover'
+import { LitElement, html, css } from 'lit-element.js'
+import Popover from '../../popover.js'
 import './sort-btn.js'
 import './sort-dir-btn.js'
 import './filters-view.js'

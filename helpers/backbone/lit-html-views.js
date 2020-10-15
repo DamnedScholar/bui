@@ -3,8 +3,8 @@
 
     !! DEPRECATED
 */
-import {render} from 'lit-html';
-import {View} from 'backbone'
+import {render} from 'lit-html.js';
+import {View} from 'backbone.js'
 
 View.prototype.props = function(){
     // lets make this an opt in since I've yet to use props

@@ -16,7 +16,7 @@
 	Docs:
 	https://www.databar-barcode.info/application-identifiers/
 */
-import Emmitter from 'component-emitter'
+import Emmitter from 'component-emitter.js'
 
 class BarcodeScanner {
 

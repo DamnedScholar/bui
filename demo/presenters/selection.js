@@ -1,9 +1,9 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/selection/README.md'
-//import screenshot from 'bui/presenters/selection/screenshot.gif'
-import Selection from 'bui/presenters/selection'
-import {bindLongPress} from 'bui/util/touch-events'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/selection/README.md.js'
+//import screenshot from 'bui/presenters/selection/screenshot.gif.js'
+import Selection from 'bui/presenters/selection.js'
+import {bindLongPress} from 'bui/util/touch-events.js'
 
 customElements.define('demo-presenter-selection', class extends View{
 

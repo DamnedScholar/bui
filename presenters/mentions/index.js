@@ -6,10 +6,10 @@
 
 	https://medium.com/streak-developer-blog/the-complexities-of-implementing-inline-autocomplete-for-content-editables-e358c0ed504b
 */
-import debounce from '../../util/debounce'
-import Menu from '../menu'
-import MentionElement from './element'
-import Fuse from 'fuse.js'
+import debounce from '../../util/debounce.js'
+import Menu from '../menu.js'
+import MentionElement from './element.js'
+import Fuse from 'fuse.js.js'
 
 export {MentionElement}
 

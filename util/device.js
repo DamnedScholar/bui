@@ -1,4 +1,4 @@
-import colorizeFavicon from './colorize-favicon'
+import colorizeFavicon from './colorize-favicon.js'
 
 const UA = navigator.userAgent
 

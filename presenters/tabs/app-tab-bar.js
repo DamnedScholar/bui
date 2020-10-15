@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import device from 'bui/util/device'
+import { LitElement, html, css } from 'lit-element.js'
+import device from 'bui/util/device.js'
 
 customElements.define('b-app-tab-bar', class extends LitElement{
 

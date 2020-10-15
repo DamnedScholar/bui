@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element';
-import AJAX from '../util/ajax.js';
+import { LitElement, html, css } from 'lit-element.js';
+import AJAX from '../util/ajax.js.js';
 import '../util/file.ext.js'
 
 export class UploaderElement extends LitElement {

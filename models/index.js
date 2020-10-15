@@ -3,8 +3,8 @@
     NOTE: sort of replicates Backbone functionality, but with less 
     overhead and modified for our needs...still thinking things through
 */
-// import Emitter from 'component-emitter'
-import {Events} from 'backbone'
+// import Emitter from 'component-emitter.js'
+import {Events} from 'backbone.js'
 
 export class Collection {
 

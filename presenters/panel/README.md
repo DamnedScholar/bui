@@ -33,7 +33,7 @@ panel.open()
 It is best practice to give panels a name of a custom element to render
 
 ```javascript
-import {Panel} from 'bui'
+import {Panel} from 'bui.js'
 
 let panel = new Panel('custom-element', {
     title: 'My Custom Element View',
@@ -52,8 +52,8 @@ So inside of `custom-element` you can access the panel with `this.panel`
 Rendering panels this way probably shouldn't happen very often, but it is supported.
 
 ```javascript
-import {Panel} from 'bui'
-import {html} from 'lit-html'
+import {Panel} from 'bui.js'
+import {html} from 'lit-html.js'
 
 new Panel(()=>html`
     <b-panel-toolbar></b-panel-toolbar>
@@ -68,7 +68,7 @@ Panel is integrated with `router` allowing for panels be opened via url.
 The registered panel will not be created until the url is triggered
 
 ```javascript
-import {Panel, router} from 'bui'
+import {Panel, router} from 'bui.js'
 
 // Panel.register(path, view, options)
 Panel.register('my-custom-element', 'custom-element', {
@@ -178,7 +178,7 @@ modal (popup/alert) windows. This can be accomplished through the options
 parameter or through the convenient Modal function
 
 ```js
-import {Modal} from 'bui/presenters/panel'
+import {Modal} from 'bui/presenters/panel.js'
 
 Modal('my-view')
 Modal('my-view', {width: '400px', closeBtn: true})
@@ -190,7 +190,7 @@ Modal('my-view', {width: '400px', closeBtn: true})
 You can use `type:"actionsheet"` or import and use the function
 
 ```js
-import {ActionSheet} from 'bui/presenters/panel'
+import {ActionSheet} from 'bui/presenters/panel.js'
 
 ActionSheet('my-view')
 ActionSheet('my-view', {anchor: 'top'})

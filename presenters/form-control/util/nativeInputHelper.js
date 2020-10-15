@@ -1,6 +1,6 @@
-import setValueAttrs from './setValueAttrs'
-import validatePattern from './validatePattern'
-import stopMaxLength from './stopMaxLength'
+import setValueAttrs from './setValueAttrs.js'
+import validatePattern from './validatePattern.js'
+import stopMaxLength from './stopMaxLength.js'
 
 export default function(input){
 

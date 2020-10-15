@@ -1,11 +1,11 @@
-import { LitElement, html, css } from 'lit-element'
-import Menu from '../menu'
+import { LitElement, html, css } from 'lit-element.js'
+import Menu from '../menu.js'
 import '../form-control/form-control.js'
 import '../form-control/controls/text-field.js'
 import '../../elements/btn.js'
 import '../../elements/spinner.js'
-import ResultView from './result'
-import device from '../../util/device'
+import ResultView from './result.js'
+import device from '../../util/device.js'
 
 customElements.define('b-search', class extends LitElement{
 

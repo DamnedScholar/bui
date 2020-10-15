@@ -1,8 +1,8 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/dialog/README.md'
-import Dialog from 'bui/presenters/dialog'
-import Notif from 'bui/presenters/notif'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/dialog/README.md.js'
+import Dialog from 'bui/presenters/dialog.js'
+import Notif from 'bui/presenters/notif.js'
 
 customElements.define('demo-presenter-dialog', class extends View{
 

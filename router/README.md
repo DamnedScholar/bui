@@ -8,7 +8,7 @@ Panel is a component that has router support built in.
 ## Getting Started
 
 ```js
-import router from 'bui/router'
+import router from 'bui/router.js'
 
 router.config({root:'/', prefix: '#'})
 router.start()

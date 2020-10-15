@@ -46,7 +46,7 @@ sync.add('/api/book/:id', Book)
 
 ```js
 // client
-import sync from 'bui/server/realtime/client/sync'
+import sync from 'bui/server/realtime/client/sync.js'
 
 export class Book {
 
@@ -73,7 +73,7 @@ myModel.realtimeSync.close()
 ### Backbone Collection Sync
 A basic Backbone.Collection sync function is implemeted and can be used
 ```js
-import {syncBackboneCollection} from 'bui/server/realtime/client/sync'
+import {syncBackboneCollection} from 'bui/server/realtime/client/sync.js'
 
 class {
     onSync(sync){
@@ -103,8 +103,8 @@ io.on('connection', socket=>{
 
 ```js
 // client
-import io from 'socket.io-client'
-import Views from 'client/views'
+import io from 'socket.io-client.js'
+import Views from 'client/views.js'
 
 const socket = io('/', {
     transports: ['websocket'], // https://caniuse.com/#feat=websockets

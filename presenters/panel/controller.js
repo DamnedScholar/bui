@@ -1,7 +1,7 @@
-import {LitElement, html, css} from 'lit-element'
-import Menu from '../menu'
-import router from '../../router'
-import device from '../../util/device'
+import {LitElement, html, css} from 'lit-element.js'
+import Menu from '../menu.js'
+import router from '../../router.js'
+import device from '../../util/device.js'
 
 const PanelControllers = {}
 

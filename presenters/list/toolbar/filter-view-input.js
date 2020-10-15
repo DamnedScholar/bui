@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element'
-import moment from 'moment'
+import { LitElement, html, css } from 'lit-element.js'
+import moment from 'moment.js'
 
 customElements.define('b-list-filter-view-input', class extends LitElement{
 

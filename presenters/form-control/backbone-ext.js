@@ -2,8 +2,8 @@
 /*
 	NOTE: this concept is still in it's early stages
 */
-import {Model} from 'backbone'
-import _ from 'underscore'
+import {Model} from 'backbone.js'
+import _ from 'underscore.js'
 
 Model.prototype.isEdited = function(){
 	return this._editedAttrs&&Object.keys(this._editedAttrs).length>0

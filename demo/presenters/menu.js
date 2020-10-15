@@ -1,7 +1,7 @@
-import { LitElement, html, css } from 'lit-element'
-import View from './view'
-import docs from 'bui/presenters/menu/README.md'
-import Menu from 'bui/presenters/menu'
+import { LitElement, html, css } from 'lit-element.js'
+import View from './view.js'
+import docs from 'bui/presenters/menu/README.md.js'
+import Menu from 'bui/presenters/menu.js'
 
 customElements.define('demo-presenter-menu', class extends View{
 

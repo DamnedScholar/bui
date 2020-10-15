@@ -14,7 +14,7 @@
 	- allow for urlPath to be used to set a url on this model
 */
 
-import Backbone from 'backbone'
+import Backbone from 'backbone.js'
 
 Backbone.Collection.prototype.getOrCreate = require('./getOrCreate')
 Backbone.Collection.prototype.getOrFetch = require('./getOrFetch')

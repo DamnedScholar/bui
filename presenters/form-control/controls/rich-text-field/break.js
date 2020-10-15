@@ -1,8 +1,8 @@
 // https://codepen.io/mackermedia/pen/gmNwZP
 
-import Quill from 'quill/core'
-import Break from 'quill/blots/break'
-import Embed from 'quill/blots/embed'
+import Quill from 'quill/core.js'
+import Break from 'quill/blots/break.js'
+import Embed from 'quill/blots/embed.js'
 
 const Delta = Quill.import('delta')
 

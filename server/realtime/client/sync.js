@@ -1,5 +1,5 @@
-import io from 'socket.io-client'
-import SyncPath from './sync-path'
+import io from 'socket.io-client.js'
+import SyncPath from './sync-path.js'
 
 let MainSync
 

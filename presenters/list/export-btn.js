@@ -1,7 +1,7 @@
-import Btn from '../../elements/btn'
-import Notif from '../notif'
-import toCSV from '../../util/toCSV'
-import { downloadCSV } from '../../util/download'
+import Btn from '../../elements/btn.js'
+import Notif from '../notif.js'
+import toCSV from '../../util/toCSV.js'
+import { downloadCSV } from '../../util/download.js'
 
 customElements.define('b-list-export-btn', class extends Btn{
 
