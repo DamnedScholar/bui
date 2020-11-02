@@ -1,24 +1,22 @@
-
 // extend Backbone for lit-html support
-require('./helpers/backbone')
+import './helpers/backbone/index.js'
 
 // extend LitElement to fit our needs
-require('./helpers/lit-element')
+import './helpers/lit-element/index.js'
 
-require('./elements/icon')
-require('./elements/btn')
-require('./elements/spinner')
-require('./elements/spinner-overlay')
-require('./elements/uploader')
-require('./elements/paper')
-require('./elements/timer')
-require('./elements/empty-state')
-require('./elements/label')
-require('./elements/hr')
-require('./elements/sub')
-require('./elements/carousel')
+import './elements/icon.js'
+import './elements/btn.js'
+import './elements/spinner.js'
+import './elements/spinner-overlay.js'
+import './elements/uploader.js'
+import './elements/paper.js'
+import './elements/timer.js'
+import './elements/empty-state.js'
+import './elements/label.js'
+import './elements/hr.js'
+import './elements/sub.js'
+import './elements/carousel.js'
 
-export const router = require('./router').default
+import * as router from './router/index.js'
 
-// I dont think I want to do this here
-export const Panel = require('./presenters/panel').Panel
+import {Panel} from './presenters/panel/index.js'
