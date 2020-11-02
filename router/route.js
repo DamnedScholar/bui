@@ -1,4 +1,4 @@
-import UrlPattern from 'url-pattern.js' // https://github.com/snd/url-pattern 
+import UrlPattern from 'https://cdn.skypack.dev/url-pattern' // https://github.com/snd/url-pattern 
 import {normalizePath} from './config.js'
 
 export default class Route {
