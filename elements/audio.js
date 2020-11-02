@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
-// import Menu from '../presenters/menu.js'
+// import Menu from '../presenters/menu/index.js'
 import './icon.js'
 import '../presenters/form-control/controls/range-slider.js'
 import moment from 'https://cdn.skypack.dev/moment'

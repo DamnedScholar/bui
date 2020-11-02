@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
-import Popover from '../../popover.js'
+import Popover from '../../popover/index.js'
 import './sort-btn.js'
 import './sort-dir-btn.js'
 import './filters-view.js'

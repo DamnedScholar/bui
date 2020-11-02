@@ -1,8 +1,8 @@
 import {render, TemplateResult} from 'https://cdn.skypack.dev/lit-html';
 import device from '../../util/device.js';
-import Panel from '../panel.js'
+import Panel from '../panel/index.js'
 import Notif from '../notif.js'
-import Popover from '../popover.js'
+import Popover from '../popover/index.js'
 import makeBtn, {cancelBtns} from './make-btn.js'
 
 // FIXME: this module needs to be refactored using lit-element to better apply styles

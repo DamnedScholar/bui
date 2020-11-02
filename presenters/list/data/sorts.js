@@ -1,5 +1,5 @@
 import {html} from 'https://cdn.skypack.dev/lit-element'
-import Menu from '../../menu.js'
+import Menu from '../../menu/index.js'
 import titleize from '../../../util/titleize.js'
 import device from '../../../util/device.js'
 import Emitter from 'component-emitter.js'

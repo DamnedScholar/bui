@@ -7,7 +7,7 @@
 	https://medium.com/streak-developer-blog/the-complexities-of-implementing-inline-autocomplete-for-content-editables-e358c0ed504b
 */
 import debounce from '../../util/debounce.js'
-import Menu from '../menu.js'
+import Menu from '../menu/index.js'
 import MentionElement from './element.js'
 import Fuse from 'https://cdn.skypack.dev/fuse.js'
 

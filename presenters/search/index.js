@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
-import Menu from '../menu.js'
+import Menu from '../menu/index.js'
 import '../form-control/form-control.js'
 import '../form-control/controls/text-field.js'
 import '../../elements/btn.js'

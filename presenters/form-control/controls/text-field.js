@@ -1,6 +1,6 @@
 import {css} from 'https://cdn.skypack.dev/lit-element'
 import moment from 'https://cdn.skypack.dev/moment'
-import Dialog from '../../dialog.js'
+import Dialog from '../../dialog/index.js'
 import './date-picker.js'
 import setValueAttrs from '../util/setValueAttrs.js'
 import validatePattern from '../util/validatePattern.js'

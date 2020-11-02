@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
-import Menu from '../menu.js'
+import Menu from '../menu/index.js'
 import TabViews from './views.js'
 import TabView from './view.js'
 import debounce from 'https://cdn.skypack.dev/lodash/lodash/debounce.js'

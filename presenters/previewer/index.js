@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
-import Panel from 'panel.js'
+import Panel from 'panel/index.js'
 import device from 'bui/util/device.js'
 
 let Presenters = [
