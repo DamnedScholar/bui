@@ -1,5 +1,5 @@
 import TabsView from './index.js'
-import router from '../../router.js'
+import router from '../../router/index.js'
 
 customElements.define('b-tabs-router', class extends TabsView {
 

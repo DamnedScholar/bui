@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element';
-import AJAX from '../util/ajax.js.js';
+import AJAX from '../util/ajax.js';
 import '../util/file.ext.js'
 
 export class UploaderElement extends LitElement {

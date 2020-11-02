@@ -3,7 +3,7 @@ import View from './view.js'
 import docs from 'bui/presenters/panel/README.md.js'
 import Panel, {Modal} from 'bui/presenters/panel.js'
 import Menu from 'bui/presenters/menu.js'
-import router from 'bui/router.js'
+import router from 'bui/router/index.js'
 
 customElements.define('demo-presenter-panel', class extends View{
 

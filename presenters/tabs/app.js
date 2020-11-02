@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
-import router from 'bui/router.js'
-import 'bui/presenters/tabs/tabs-router.js'
+import router from 'bui/router/index.js'
+import 'bui/presenters/tabs/tabs-router/index.js'
 import './app-tab-bar.js'
 
 customElements.define('b-app', class extends LitElement {

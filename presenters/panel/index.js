@@ -1,6 +1,6 @@
 import {LitElement, html, css, unsafeCSS} from 'https://cdn.skypack.dev/lit-element'
 import Controller from './controller.js'
-import router from '../../router.js'
+import router from '../../router/index.js'
 import Route from '../../router/route.js'
 import device from '../../util/device.js'
 import './controller.js'
