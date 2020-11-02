@@ -1,5 +1,5 @@
 import {LitElement, html, css} from 'https://cdn.skypack.dev/lit-element'
-import Menu from '../menu.js'
+import Menu from '../menu/index.js'
 import router from '../../router/index.js'
 import device from '../../util/device.js'
 
