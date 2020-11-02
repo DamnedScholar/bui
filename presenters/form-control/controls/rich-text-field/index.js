@@ -1,4 +1,4 @@
-import { render, html } from "lit-html";
+import { render, html } from "https://cdn.skypack.dev/lit-html";
 import {unsafeHTML} from 'https://cdn.skypack.dev/lit-html/directives/unsafe-html.js.js';
 import {normalizeText, htmlCleaner} from '../../../../util.js'
 import Menu from '../../../menu/index.js'

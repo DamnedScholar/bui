@@ -14,7 +14,7 @@
     }}
     ```
 */
-import { LitElement } from "lit-element";
+import { LitElement } from "https://cdn.skypack.dev/lit-element";
 import {Model, Collection} from 'https://cdn.skypack.dev/backbone'
 
 const LitElement_connectedCallback = LitElement.prototype.connectedCallback

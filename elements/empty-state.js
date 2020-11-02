@@ -1,7 +1,7 @@
 /*
     https://undraw.co/illustrations
 */
-import { LitElement, html, css } from "lit-element";
+import { LitElement, html, css } from "https://cdn.skypack.dev/lit-element";
 
 export default class EmptyState extends LitElement {
 
