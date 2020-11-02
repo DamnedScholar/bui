@@ -1,7 +1,7 @@
-require('./listeners')
-require('./events')
-require('./model')
-require('./coll')
-require('./sv')
-require('./selectors')
-require('./get')
+import './listeners.js'
+import './events.js'
+import './model.js'
+import './coll.js'
+import './sv.js'
+import './selectors.js'
+import './get.js'

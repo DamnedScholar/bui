@@ -1,11 +1,10 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from '/js/bui/node_modules/lit-element/lit-element.js'
 import Menu from '../menu.js'
 import TabViews from './views.js'
 import TabView from './view.js'
-import debounce from 'lodash/debounce.js'
+import debounce from '/js/bui/node_modules/lodash/lodash/debounce.js'
 
 customElements.define('b-tabs', class extends LitElement {
-
     static get properties(){return {
         key: {type: String, reflect: true},
         layout: {type: String, reflect: true},
