@@ -1,7 +1,7 @@
 /*
     DEPRECATED
 */
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 
 customElements.define('b-sub', class extends LitElement{
 

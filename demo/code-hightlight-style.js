@@ -1,4 +1,4 @@
-import { css } from 'lit-element.js'
+import { css } from 'https://cdn.skypack.dev/lit-element'
 
 export const codeHightlighStyle = css`
 .hljs {

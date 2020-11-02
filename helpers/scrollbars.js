@@ -1,4 +1,4 @@
-import {css} from 'lit-element.js'
+import {css} from 'https://cdn.skypack.dev/lit-element'
 import device from '../util/device.js'
 
 const styles = css`

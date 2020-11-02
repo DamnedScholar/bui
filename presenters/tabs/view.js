@@ -1,4 +1,4 @@
-import {html} from 'lit-html.js'
+import {html} from 'https://cdn.skypack.dev/lit-html'
 
 export default class TabView {
 

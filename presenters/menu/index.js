@@ -1,9 +1,9 @@
-import {html, render} from 'lit-html.js'
-import {unsafeHTML} from 'lit-html/directives/unsafe-html.js'
+import {html, render} from 'https://cdn.skypack.dev/lit-html'
+import {unsafeHTML} from 'https://cdn.skypack.dev/lit-html/directives/unsafe-html.js'
 import Popover from '../popover.js'
 import Dialog from '../dialog.js'
 import Panel from '../panel.js'
-import Fuse from 'fuse.js.js'
+import Fuse from 'https://cdn.skypack.dev/fuse.js'
 import '../form-control/controls/check-box.js'
 import '../form-control/controls/select-field.js'
 import device from '../../util/device.js';

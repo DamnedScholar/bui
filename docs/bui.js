@@ -679,7 +679,7 @@ const directives = new WeakMap();
  *
  * @example
  *
- * import {directive, html} from 'lit-html.js';
+ * import {directive, html} from 'https://cdn.skypack.dev/lit-html';
  *
  * const immutable = directive((v) => (part) => {
  *   if (part.value !== v) {
@@ -2119,7 +2119,7 @@ var _templateInstance = require("./template-instance.js");
 
 var _template = require("./template.js");
 
-var _litHtml = require("../lit-html.js");
+var _litHtml = require("../https://cdn.skypack.dev/lit-html");
 
 /**
  * @license
@@ -2438,7 +2438,7 @@ const render = (result, container, options) => {
 };
 
 exports.render = render;
-},{"./dom.js":"ytxR","./modify-template.js":"NXoq","./render.js":"Fhpq","./template-factory.js":"gbKZ","./template-instance.js":"bn5t","./template.js":"Av0K","../lit-html.js":"SPDu"}],"fKvB":[function(require,module,exports) {
+},{"./dom.js":"ytxR","./modify-template.js":"NXoq","./render.js":"Fhpq","./template-factory.js":"gbKZ","./template-instance.js":"bn5t","./template.js":"Av0K","../https://cdn.skypack.dev/lit-html":"SPDu"}],"fKvB":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3792,7 +3792,7 @@ Object.defineProperty(exports, "SVGTemplateResult", {
 });
 exports.LitElement = void 0;
 
-var _shadyRender = require("lit-html/lib/shady-render.js");
+var _shadyRender = require("https://cdn.skypack.dev/lit-html/lib/shady-render.js");
 
 var _updatingElement = require("./lib/updating-element.js");
 
@@ -3820,7 +3820,7 @@ Object.keys(_decorators).forEach(function (key) {
   });
 });
 
-var _litHtml = require("lit-html/lit-html.js");
+var _litHtml = require("https://cdn.skypack.dev/lit-html/lit-html");
 
 var _cssTag = require("./lib/css-tag.js");
 
@@ -3861,7 +3861,7 @@ Object.keys(_cssTag).forEach(function (key) {
  * component:
  *
  *  ```js
- * import {LitElement, html} from 'lit-element.js';
+ * import {LitElement, html} from 'https://cdn.skypack.dev/lit-element';
  *
  * class MyElement extends LitElement {
  *
@@ -4130,7 +4130,7 @@ LitElement['finalized'] = true;
  */
 
 LitElement.render = _shadyRender.render;
-},{"lit-html/lib/shady-render.js":"eBH8","./lib/updating-element.js":"fKvB","./lib/decorators.js":"FzpZ","lit-html/lit-html.js":"SPDu","./lib/css-tag.js":"ZFCR"}],"ncPe":[function(require,module,exports) {
+},{"https://cdn.skypack.dev/lit-html/lib/shady-render.js":"eBH8","./lib/updating-element.js":"fKvB","./lib/decorators.js":"FzpZ","https://cdn.skypack.dev/lit-html":"SPDu","./lib/css-tag.js":"ZFCR"}],"ncPe":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -13494,7 +13494,7 @@ exports.unsafeHTML = void 0;
 
 var _parts = require("../lib/parts.js");
 
-var _litHtml = require("../lit-html.js");
+var _litHtml = require("../https://cdn.skypack.dev/lit-html");
 
 /**
  * @license
@@ -13545,7 +13545,7 @@ const unsafeHTML = (0, _litHtml.directive)(value => part => {
   });
 });
 exports.unsafeHTML = unsafeHTML;
-},{"../lib/parts.js":"atl2","../lit-html.js":"SPDu"}],"loUd":[function(require,module,exports) {
+},{"../lib/parts.js":"atl2","../https://cdn.skypack.dev/lit-html":"SPDu"}],"loUd":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -19263,7 +19263,7 @@ customElements.define('b-snackbar', class extends _litElement.LitElement {
 var _default = customElements.get('b-snackbar');
 
 exports.default = _default;
-},{"lit-element":"bhxD","lit-html/directives/unsafe-html":"jTPt","../dialog/make-btn":"TZ6L","../../helpers/lit-element/events":"euwv"}],"XAiK":[function(require,module,exports) {
+},{"lit-element":"bhxD","https://cdn.skypack.dev/lit-html/directives/unsafe-html":"jTPt","../dialog/make-btn":"TZ6L","../../helpers/lit-element/events":"euwv"}],"XAiK":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21230,7 +21230,7 @@ exports.default = exports.DefaultOpts = void 0;
 
 var _litHtml = require("lit-html");
 
-var _unsafeHtml = require("lit-html/directives/unsafe-html");
+var _unsafeHtml = require("https://cdn.skypack.dev/lit-html/directives/unsafe-html");
 
 var _popover = _interopRequireDefault(require("../popover"));
 
@@ -21790,7 +21790,7 @@ class Menu {
 }
 
 exports.default = Menu;
-},{"lit-html":"SPDu","lit-html/directives/unsafe-html":"jTPt","../popover":"Soyf","../dialog":"pos3","../panel":"cmZt","fuse.js":"Wp9p","../form-control/controls/check-box":"jNfL","../form-control/controls/select-field":"h8fl","../../util/device":"la8o","./style.less":"r4vn"}],"P61z":[function(require,module,exports) {
+},{"lit-html":"SPDu","https://cdn.skypack.dev/lit-html/directives/unsafe-html":"jTPt","../popover":"Soyf","../dialog":"pos3","../panel":"cmZt","fuse.js":"Wp9p","../form-control/controls/check-box":"jNfL","../form-control/controls/select-field":"h8fl","../../util/device":"la8o","./style.less":"r4vn"}],"P61z":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38331,7 +38331,7 @@ exports.default = void 0;
 
 var _litHtml = require("lit-html");
 
-var _unsafeHtml = require("lit-html/directives/unsafe-html.js");
+var _unsafeHtml = require("https://cdn.skypack.dev/lit-html/directives/unsafe-html.js");
 
 var _util = require("../../../../util");
 
@@ -38642,7 +38642,7 @@ customElements.define('rich-text-field', RichTextField);
 var _default = customElements.get('rich-text-field');
 
 exports.default = _default;
-},{"lit-html":"SPDu","lit-html/directives/unsafe-html.js":"jTPt","../../../../util":"xBze","../../../menu":"tCYJ","./style":"d7Am","./quill":"COD5"}],"GLLF":[function(require,module,exports) {
+},{"lit-html":"SPDu","https://cdn.skypack.dev/lit-html/directives/unsafe-html.js":"jTPt","../../../../util":"xBze","../../../menu":"tCYJ","./style":"d7Am","./quill":"COD5"}],"GLLF":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

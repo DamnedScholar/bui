@@ -9,7 +9,7 @@
 import debounce from '../../util/debounce.js'
 import Menu from '../menu.js'
 import MentionElement from './element.js'
-import Fuse from 'fuse.js.js'
+import Fuse from 'https://cdn.skypack.dev/fuse.js'
 
 export {MentionElement}
 

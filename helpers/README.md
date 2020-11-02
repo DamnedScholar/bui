@@ -10,7 +10,7 @@ Extend LitElement to fit our needs. I like doing this so that we dont have to cr
 
 ```js
 // include all lit-element helpers
-import 'bui/helpers/lit-element.js'
+import 'bui/helpers/https://cdn.skypack.dev/lit-element'
 ```
 
 ### Listeners

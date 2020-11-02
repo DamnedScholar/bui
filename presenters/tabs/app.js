@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import router from 'bui/router.js'
 import 'bui/presenters/tabs/tabs-router.js'
 import './app-tab-bar.js'

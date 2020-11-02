@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import Menu from '../menu.js'
 import TabViews from './views.js'
 import TabView from './view.js'

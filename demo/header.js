@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import 'bui/elements/text.js'
 import Menu from 'bui/presenters/menu.js'
 import {colorScheme} from 'bui/util/device.js'

@@ -1,5 +1,5 @@
-import {css} from 'lit-element.js'
-import moment from 'moment.js'
+import {css} from 'https://cdn.skypack.dev/lit-element'
+import moment from 'https://cdn.skypack.dev/moment'
 import Dialog from '../../dialog.js'
 import './date-picker.js'
 import setValueAttrs from '../util/setValueAttrs.js'

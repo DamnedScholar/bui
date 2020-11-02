@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import DataSource from './data/source.js'
 import Filters from './data/filters.js'
 import Sorts from './data/sorts.js'

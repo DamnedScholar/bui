@@ -1,7 +1,7 @@
 /*
 	Select Field
 */
-import {css} from 'lit-element.js'
+import {css} from 'https://cdn.skypack.dev/lit-element'
 import Menu from '../../menu.js'
 import device from '../../../util/device.js';
 

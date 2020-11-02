@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import sparkline from '@fnando/sparkline.js'
 
 customElements.define('b-sparkline', class extends LitElement{

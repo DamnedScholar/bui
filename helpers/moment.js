@@ -1,4 +1,4 @@
-import moment from 'moment.js'
+import moment from 'https://cdn.skypack.dev/moment'
 
 // .calendar includes time, this will only show dates/days
 moment.fn.calendarDate = function(referenceTime, formats={}){

@@ -2,7 +2,7 @@
     Tells the element to update when a new backbone model
     is assigned
 */
-import {LitElement} from 'lit-element.js'
+import {LitElement} from 'https://cdn.skypack.dev/lit-element'
 
 Object.defineProperty(LitElement.prototype, 'model', {
 

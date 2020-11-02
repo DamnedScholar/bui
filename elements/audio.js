@@ -1,8 +1,8 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 // import Menu from '../presenters/menu.js'
 import './icon.js'
 import '../presenters/form-control/controls/range-slider.js'
-import moment from 'moment.js'
+import moment from 'https://cdn.skypack.dev/moment'
 import store from '../util/store.js'
 
 // TODO: hook up settings menu

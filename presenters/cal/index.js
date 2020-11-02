@@ -1,7 +1,7 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import '../../elements/btn-group.js'
 import '../../helpers/lit-element/events.js'
-import moment from 'moment.js'
+import moment from 'https://cdn.skypack.dev/moment'
 import './day.js'
 
 customElements.define('b-cal', class extends LitElement{

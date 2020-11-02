@@ -1,4 +1,4 @@
-import {LitElement, html, css, unsafeCSS} from 'lit-element.js'
+import {LitElement, html, css, unsafeCSS} from 'https://cdn.skypack.dev/lit-element'
 import Controller from './controller.js'
 import router from '../../router.js'
 import Route from '../../router/route.js'

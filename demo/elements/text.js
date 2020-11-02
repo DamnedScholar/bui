@@ -1,4 +1,4 @@
-import { html } from 'lit-element.js'
+import { html } from 'https://cdn.skypack.dev/lit-element'
 
 export default html`
 <section title="Text">

@@ -1,5 +1,5 @@
-import moment from 'moment.js';
-import {css} from 'lit-element.js'
+import moment from 'https://cdn.skypack.dev/moment';
+import {css} from 'https://cdn.skypack.dev/lit-element'
 
 const styles = css`
 

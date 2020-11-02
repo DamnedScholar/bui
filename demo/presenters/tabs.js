@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import View from './view.js'
 import docs from 'bui/presenters/tabs/README.md.js'
 

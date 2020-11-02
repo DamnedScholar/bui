@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 
 // https://embedresponsively.com/ 
 customElements.define('b-embed', class Embed extends LitElement {

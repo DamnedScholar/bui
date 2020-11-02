@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import Menu from '../menu.js'
 import '../form-control/form-control.js'
 import '../form-control/controls/text-field.js'

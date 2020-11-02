@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element.js'
-import {unsafeHTML} from 'lit-html/directives/unsafe-html.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
+import {unsafeHTML} from 'https://cdn.skypack.dev/lit-html/directives/unsafe-html.js'
 import makeBtn, {cancelBtns} from '../dialog/make-btn.js'
 import '../../helpers/lit-element/events.js'
 

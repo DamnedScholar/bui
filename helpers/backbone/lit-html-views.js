@@ -3,7 +3,7 @@
 
     !! DEPRECATED
 */
-import {render} from 'lit-html.js';
+import {render} from 'https://cdn.skypack.dev/lit-html';
 import {View} from 'backbone.js'
 
 View.prototype.props = function(){

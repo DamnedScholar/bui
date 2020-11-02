@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import '../../elements/empty-state.js'
 
 customElements.define('b-infinite-list', class extends LitElement {

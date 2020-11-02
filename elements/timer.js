@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element.js'
-import moment from 'moment.js'
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
+import moment from 'https://cdn.skypack.dev/moment'
 
 export class TimerElement extends LitElement {
 

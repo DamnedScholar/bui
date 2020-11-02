@@ -1,4 +1,4 @@
-import {render, TemplateResult} from 'lit-html.js';
+import {render, TemplateResult} from 'https://cdn.skypack.dev/lit-html';
 import device from '../../util/device.js';
 import Panel from '../panel.js'
 import Notif from '../notif.js'

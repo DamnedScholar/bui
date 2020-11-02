@@ -1,4 +1,4 @@
-import {LitElement} from 'lit-element.js'
+import {LitElement} from 'https://cdn.skypack.dev/lit-element'
 
 LitElement.prototype.emitEvent = function(eventName, detail=null){
 

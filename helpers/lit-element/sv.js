@@ -1,7 +1,7 @@
 /*
     Creates a linked subview if needed
 */
-import {LitElement} from 'lit-element.js'
+import {LitElement} from 'https://cdn.skypack.dev/lit-element'
 
 LitElement.prototype.sv = function(viewName, elementName){
     this.__subviews = this.__subviews || {}

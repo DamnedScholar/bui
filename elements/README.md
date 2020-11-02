@@ -136,7 +136,7 @@ File icon has some default file formats defined, but you will inevitably want to
 To support this, you must deliberately call the "define" function before using the custom element.
 
 ```js
-import { css } from 'lit-element.js'
+import { css } from 'https://cdn.skypack.dev/lit-element'
 import defineFileIcon, {fileIconColors} from 'bui/elements/file-icon.js'
 
 // list of predefined colors
