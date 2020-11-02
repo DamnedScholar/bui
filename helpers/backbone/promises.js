@@ -2,7 +2,7 @@
     Creates some promised verions of Backbone methods
 */
 
-import {Model, Collection} from 'backbone.js'
+import {Model, Collection} from 'https://cdn.skypack.dev/backbone'
 
 const fetchSync = function(opts={}){
 

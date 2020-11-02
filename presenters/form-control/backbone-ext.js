@@ -2,7 +2,7 @@
 /*
 	NOTE: this concept is still in it's early stages
 */
-import {Model} from 'backbone.js'
+import {Model} from 'https://cdn.skypack.dev/backbone'
 import _ from 'underscore.js'
 
 Model.prototype.isEdited = function(){

@@ -1,5 +1,5 @@
 /*
-    Extensions to improve working with Backbone.js
+    Extensions to improve working with https://cdn.skypack.dev/backbone
 */
 import './lit-html-views.js'
 import './promises.js'

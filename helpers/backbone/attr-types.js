@@ -12,7 +12,7 @@
 	- should null/undefined value parsing be more robust?
 */
 
-import Backbone from 'backbone.js'
+import Backbone from 'https://cdn.skypack.dev/backbone'
 
 const BackboneModelGet = Backbone.Model.prototype.get // save reference
 

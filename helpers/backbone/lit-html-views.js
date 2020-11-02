@@ -4,7 +4,7 @@
     !! DEPRECATED
 */
 import {render} from 'https://cdn.skypack.dev/lit-html';
-import {View} from 'backbone.js'
+import {View} from 'https://cdn.skypack.dev/backbone'
 
 View.prototype.props = function(){
     // lets make this an opt in since I've yet to use props

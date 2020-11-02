@@ -4,7 +4,7 @@
     overhead and modified for our needs...still thinking things through
 */
 // import Emitter from 'component-emitter.js'
-import {Events} from 'backbone.js'
+import {Events} from 'https://cdn.skypack.dev/backbone'
 
 export class Collection {
 
