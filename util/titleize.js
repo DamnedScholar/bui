@@ -1,4 +1,4 @@
-import capitalize from 'lodash/capitalize.js'
+import capitalize from 'https://cdn.skypack.dev/lodash/capitalize.js'
 
 export default str => {
     return str.replace(/[\-_]/g, ' ')

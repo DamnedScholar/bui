@@ -2,7 +2,7 @@ import { LitElement, html, css } from 'https://cdn.skypack.dev/lit-element'
 import Menu from '../menu/index.js'
 import TabViews from './views.js'
 import TabView from './view.js'
-import debounce from 'https://cdn.skypack.dev/lodash/lodash/debounce.js'
+import debounce from 'https://cdn.skypack.dev/lodash/debounce.js'
 
 customElements.define('b-tabs', class extends LitElement {
     static get properties(){return {
